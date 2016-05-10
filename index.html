@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+   <title>FT中文网正文页面练习</title>
+    <meta charset='utf-8'>
+   
+    
+    <style>
+   
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+    body {
+    background-color:gray;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/*网页居中容器样式设定*/
+
+#wrap {
+    margin: 0 auto;
+    height: 90px;
+    width: 970px;
+}
+
+
+/*顶部通栏广告样式设定*/
+
+.top-ad {
++    margin-bottom: 10px;
++}
+
+    margin-top: 3px;
+
+/*顶部导航条样式设定*/
+
+#nav {
+    border-bottom: 10px #9E2F50 solid;
+    padding-bottom: 10px;
+}
+
+#nav p {
+    color: #A7A59B;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+#nav img {
+    display: block;
+    width: 172px;
+    height: 36px;
+    float: left;
+}
+
+#nav div:last-child {
+    /*background-color: red;*/
+    float: right;
+}
+
+#nav div:last-child p {
+    text-align: right;
+}
+
+#nav h1 {
+    font-family: simhei;
+    font-size: 28px;
+    margin-top: 5px;
+    margin-left: 20px;
+    float: left;
+    font-weight: bold;
+   width: 150px;
+   clear:both;
+        anmation: run  ease-in-out 9s infinite;
+   -moz-animation: run  ease-in-out 9s infinite ;    
+-webkit-animation: run  ease-in-out 9s infinite;    
+-ms-animation: run  ease-in-out 9s infinite;    
+
+     -o-animation: run  ease-in-out 9s infinite;}
+     
+
+
+#nav p a {
+    color: #4D8BB8;
+    text-decoration: none;
+}
+
+#nav form p {
+    float: left;
+}
+
+.menu ul {
+    background-color: lightgray;
+margin:0;
+padding:0;}
+
+
+.menu li {
+    display: block;
+    float: left;
+    width: 95px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    border-right:1px solid #666666;
+    float: left;list-style: none;
+border-top:1px solid #666666;
+border-left:1px solid #666666;
+border-bottom:1px solid #666666;
+    width: 95px;
+background: olive;
+}
+
+
+.menu a {
+    color: black;
+    /*display: block;*/
+    text-decoration: none;
+    padding: 1px;
+}
+
+.menu a:hover {
+    color: white;
+    background-color: #A7A59B;
+    border: 1px #A7A59B solid;
+    border-radius: 5px;
+}
+
+
+/*主体部分样式*/
+
+.left {
+    width: 620px;
+    float: left;
+    border-right: 1px #F6E9D8 solid;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.aside {
+    width: 339px;
+    float: left;
+}
+
+.published-time {
+   color: #9E2F50;
+    margin: 18px 0;
+    font-weight: bold;
+}
+
+.left h1 {
+    font-size: 25px;
+    font-family: "Microsoft Yahei", "monospace";
+    font-weight: bold;
+   margin-bottom: 15px;
+}
+
+.author {
+    color: #A7A59B;
+   font-size: 17px;
+   font-weight: bold;
+}
+
+.bdsharebuttonbox {
+    float: right;
+}
+
+.content p {
+    text-indent: 2em;
+    font-size: 17px;
+    line-height: 1.5;
+   margin: 8px 0;
+}
+
+.content .first-p {
+    text-indent: 0;
+}
+
+.first-p:first-letter {
+    color: block;
+    font-size: 48px;
+    display: block;
+    float: left;
+    margin: 0 8px 8px 0;
+}
+
+.content p.img {
+    text-align: center;
+    text-indent: 0;
+}
+.aside-ad {
+    width: 320px;
+   height: 270px;
+    background-color: gray;
+    padding-top: 10px;
+   position: relative;
+   resize: vertical;
+    overflow: auto;
+    text-align: center;
+}
+
+.aside-ad img {
+    display: block;
+    position: absolute;
+    
+    resize: vertical;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+.aside-ad img {transform: rotate(0 0);}
+
+.aside-ad img:hover{transform: rotate(720deg); }
+.letter{clear: both;
+margin: 0 1px 1px;
+border-top: 8px solid orange;
+overflow: hidden;}
+    
+ ol{list-style-type: li;
+     list-style-position: inside;
+     line-height: 32px;
+     text-align: center;}
+     .more-topics {
+    float: right;
+    font-size: 14px;}
+  #footer ul li a {
+    color: red;
+    margin: 0 0 0 .20em;
+    font-size: 14px;
+    line-height: 1;
+    padding:0 0 0 10em;
+}  #footer span {
+    color: #999;
+    font-size: 14px;
+    line-height: 1;
+}
+
+
+
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+    <div id="wrap">
+        <div class="top-ad"><img src="img/hww.jpg"></div>
+       <div id="nav" class="clearfix">
+            <div>
+                <p>2016年4月26日 发布</p>
+               <img src="img/1.jpeg" alt="期中作业-黄微微"><br/>
+               <br/>>
+                <h1>桑格丽之夏</h1>
+            </div>
+            <div>
+                <p>
+                    <span><a href="#">新手指南</a></span>                    <span>登录</span>
+                    <span>注册</span>
+                </p>
+                <form action="#">
+                    <p>
+                        <input type="text" name="" id="">
+                    </p>
+                    <p>
+                        <input type="radio" name="文章" id="">文章</p>
+                    <p>
+                        <input type="radio" name="日期" id="" checked>日期</p>
+                    <p>
+                        <input type="submit" value="搜索">
+                    </p>
+                </form>
+           </div>
+        </div>
+        <div class="menu">
+            <ul class="clearfix" id="nn">
+                <li style="left:auto">
+                <a href="#">首页</a>
+                     </li>
+                <li><a href="#">中国</a></li>
+                <li><a href="#">全球</a></li>
+                <li><a href="#">经济</a></li>
+                <li><a href="#">金融市场</a></li>
+                <li><a href="#">商业</a></li>
+                <li><a href="#">观点</a></li>
+                <li><a href="#">管理</a></li>
+                <li><a href="#">生活时尚</a></li>
+                <li><a href="#">视频</a></li>
+            </ul>
+        </div>
+        <div id="main">
+            <div class="left">
+                <div class="published-time">2016年5月2日 19：30</div>
+                <h1>到最后，仙女和精灵谈了场恋爱。</h1>
+                <p class="author">《桑格莉之夏》</p>
+                <div class="clearfix">
+                    <div class="bdsharebuttonbox">
+                        <a href="#" class="bds_more" data-cmd="more"></a>
+                        <a title="分享到QQ空间" href="#" class="bds_qzone" data-cmd="qzone"></a>
+                        <a title="分享到新浪微博" href="#" class="bds_tsina" data-cmd="tsina"></a>
+                       <a title="分享到腾讯微博" href="#" class="bds_tqq" data-cmd="tqq"></a>
+                        <a title="分享到人人网" href="#" class="bds_renren" data-cmd="renren"></a>
+                        <a title="分享到微信" href="#" class="bds_weixin" data-cmd="weixin"></a>
+                    </div>
+                    <script>
+                    window._bd_share_config = {
+                        "common": {
+                           "bdSnsKey": {},
+                           "bdText": "",
+                            "bdMini": "2",
+                            "bdMiniList": false,
+                            "bdPic": "",
+                            "bdStyle": "0",
+                            "bdSize": "16"
+                        },
+                        "share": {},
+                        "image": {
+                            "viewList": ["qzone", "tsina", "tqq", "renren", "weixin"],
+                            "viewText": "分享到：",
+                            "viewSize": "16"
+                        },
+                        "selectShare": {
+                            "bdContainerClass": null,
+                            "bdSelectMiniList": ["qzone", "tsina", "tqq", "renren", "weixin"]
+                        }
+                   };
+                    with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+                    </script>
+                </div>
+                <div class="content">
+                    <p class="img"><img src="img/2.jpg" alt="">" ></p>
+                    <p class="first-p">
+                    
+
+                    <p>去年年底，我在朋友圈公布了2015年年度心目中最佳TOP5电影清单。其中排名第一的就是凯特·布兰切特和鲁妮·玛拉合作的那部《CAROL》。并且毫不吝啬地说，我用上了“继《断背山》之后最好的LGBT类型片”来褒赞那部电影。相信有很多人都记得托德·海因斯镜头下那两位风情万种的复古女郎，她们烟波曼妙却又隐忍克制的情感暗涌，眼角眉梢，衣边襟脚，一颦一笑间，都各有千秋美感。
+
+而后，在《阿黛尔的生活》、《Holding The Man》等同样制作精良的LGBT类型片涌现出之后，观众难免又会出现审美疲软。乘着“小众性向大众化”的东风，燕公子由衷感谢挚友的推荐，是她让我邂逅了这部美如诗画的《桑格莉之夏》——一部关于仙女和精灵的爱情电影。
+
+和《卡罗尔》内敛沉稳的叙事风格不同，《桑格莉之夏》在剧情层面还略显青涩。前者是上世纪50年代美国街头摇曳生姿的情欲火苗，而后者却是立陶宛清新干净犹若白纸一般的盛夏天空。《卡罗尔》给大家的是一段连接着婚姻、社会、家庭等严肃话题的LES电影，而《桑格莉之夏》只不过是两位主角身处桃源仙境一般的唯美爱情。</p>
+                    <p>没有伦理之束缚、道德之审判、社会之压迫、世俗之克制，这样的简单让这个故事美丽得失真，亦如电影本身美丽动人的视觉画面一般，让人不忍亵渎。
+
+所以在写这部电影前，我曾绞尽脑汁地去编织所谓的最美妙的语言形容她们。而在把思绪放回到作品本身之后，她们之间的爱，我想或许早已脱离了烟火人间的纷扰，任何华美词藻放置其中都略显苍白。就像我前面说的，《桑格莉之夏》的爱情没有外界的一切纷扰，这段感情就是两个人的事情，故事发生在立陶宛，却更像是导演基于这个现实世界之外构造出的桃源仙境——那里的女孩都绚烂，那里的姑娘都少女，而《桑格莉之夏》，不过只是仙女和精灵谈了场恋爱。
+
+这个关于思考青春痛仰话题的同性电影，故事极其简单——桑格莉是个害羞内向的梦想家，她渴望成为一名飞行员。这在电影开头五分钟就可见一斑。随着电影叙述的展开，一幅绚烂精致的立陶宛画卷徐徐呈现在观众面前。
+
+湛蓝如洗的天空，郁郁葱葱的密林，粼粼闪烁的水波，还有铺就在坍塌小路上的温柔的阳光。对天空带着轻微恐惧感的女孩桑格莉紧紧追随着花式炫技的滑翔机，将飞行家之梦寄托在立陶宛的万里晴空上。</p>
+                    <p>在某次飞行演练观摩活动中，回眸一望的桑格莉邂逅了电影的另外一位女主人公——犹如精灵一般的少女奥斯特。这多像《CAROL》中两位女主人翁唯美精致的对视桥段，身处汹涌人潮，而诗性目光却彼此交缠。
+
+或许这就是爱情，仿佛冥冥之中注定好了一切。与含蓄、内向、紧张、羞涩的桑格莉截然不同的是，女孩奥斯特热情奔放，宛如绿野仙踪的芳草精灵。她热衷于艺术摄影，有绚烂如虹的心境，还有一群活泼可爱的玩伴，这样的少女，走到哪里都像是一缕阳光。
+
+而二人性格上的迥异并未影响她们的友谊，自观摩会上惊鸿一瞥之后，主动的奥斯特邀约桑格莉。两人开始你来我往地走进彼此的世界，而导演也在这如诗如画的叙事中穿插进了关于青春期少女独特心思的小小伏笔。
+
+一个是两位女主人公全然不同的房间摆设，在她们彼此拜访各自的房间之后，场景的对比性质将房间主人的性格完全凸显了出来。亦如性情薄凉寡淡的桑格莉，即便出身家境殷实的中产家庭，可房间却只有一张木床、几件衣服如此简单。而身居平民区的少女奥斯特，即便她没有桑格莉那样的林间别墅，可她的房间却炫彩多姿，到处挂满了斑斓绚丽的手工艺品。导演渴望以此加强两位女主人公看似南辕北辙的性格差距，为以后她们能携手同行做出铺垫。</p>
+                    <p>而在这看似平淡无奇的故事之中，它隐藏了关于青春痛仰的深刻内涵，交织缠绕的重叠意象使其更加丰富。
+
+或许你也会遇到这样一段爱情，它无关生老病死，无关柴米油盐，只与荷尔蒙作伴，爱，沉迷，失落，悸动，追逐梦想，架空在二人世界里的清奇构造，掺杂着青春期无因的反抗，《桑格莉之夏》如此，即便到最后，它不过只是仙女和精灵谈了场恋爱。
+
+仅此而已，再无其他。
+                   </p>
+                   
+               </div>
+                <!-- 多说评论框 start -->
+                <div class="ds-thread" data-thread-key="3860bd9141025e6e9bb745f95eedd4d4" data-title="请替换成文章的标题" data-url="请替换成文章的网址">
+                </div>
+                <!-- 多说评论框 end -->
+                <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+                <script type="text/javascript">
+               var duoshuoQuery = {
+                    short_name: "adamyang2006"
+                };
+                (function() {
+                    var ds = document.createElement('script');
+                    ds.type = 'text/javascript';
+                    ds.async = true;
+                    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+                    ds.charset = 'UTF-8';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+                })();
+
+               </script>
+                <!-- 多说公共JS代码 end -->
+               <div id="jpg">
+                
+
+          </div>
+           </div>
+            <div class="aside">
+                <div class="aside-ad"><img src="img/hww.jpg" alt="">" hspace="10" vspace="10" alt="宁波论坛"></div>
+               <div id="line" class=letter></div>
+                <h3>
+                <a target="_blank">你可能喜欢</a>
+                </h3>
+                <div class="data" style="display:block">
+                <p style="color:red;"><marquee>暂时没有为您推荐的文章，请坚持阅读的好习惯！</marquee></p>
+                </div>
+                <div id="line" class=letter>
+                
+                </div>
+
+            </div>
+
+            <div id="article">
+                
+                 
+                 </div>
+
+
+                  
+            <div>
+             <div id="underline">
+                     
+                     <hr  size="12" color="red" align="left"></hr>
+                 </div>
+                 <div id="img1">
+                 <img src="img/3.jpg" alt="图片" hspace="10" width="300"
+                 height="300" />
+</div>
+    <hr  size="12" color="red" align="left"></hr>
+     <div id="site" class="one">
+     <div id="only">
+            <img src="img/1.jpg" alt="图片" hspace="10" height="250" width="300">
+</div>
+      <hr  size="12" color="red" align="left"></hr>
+      <h3><a href="#"></a>评论最多的文章</h3>
+      <ol>
+         <li>
+            <a target="_blank" href="#">广交会见证中国出口商忧郁心情</a>
+            </li>
+            <a class=more-topics href="#">更多排行榜</a>
+      </ol>
+        <div id="line" class=letter></div> 
+        <div id="footer">
+            <div id="footer-content">
+            <ul>
+   
+            <li>
+            <a href="#">关于我们</a>
+            <a href="#">加入我们</a>
+            <a href="#">联系方式</a>
+            <a href="#">问题反馈</a>
+            <a href="#">合作伙伴</a>
+            <a href="#">服务条款</a>
+            <a href="#">版权声明</a>
+            <a href="#">最新动态</a>
+            <a href="#">广告业务</a>
+            
+            </li>
+            </ul>
+            <span><strong>© The Financial Times Ltd 2016 FT and 'Financial Times' are trademarks of The Financial Times Ltd.</strong> </span>
+        </div>
+        
+    </div>
+</body>
+
+</html>
